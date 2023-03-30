@@ -40,12 +40,22 @@ const Home = () => {
                             <div className="box post-box">
                                 <ul className="postlist">
                                     <li className="active"><Link to="/">
-                                        <p className="paragraph">Posts</p>
+                                        <p className="paragraph">Blog post</p>
                                         <div className="count"><p className="paragraph">{0}</p></div>
                                     </Link></li>
 
                                     <li><Link to="/">
-                                        <p className="paragraph">Series</p>
+                                        <p className="paragraph">Jobs</p>
+                                        <div className="count"><p className="paragraph">{0}</p></div>
+                                    </Link></li>
+
+                                    <li><Link to="/">
+                                        <p className="paragraph">Hire</p>
+                                        <div className="count"><p className="paragraph">{0}</p></div>
+                                    </Link></li>
+
+                                    <li><Link to="/">
+                                        <p className="paragraph">For hire</p>
                                         <div className="count"><p className="paragraph">{0}</p></div>
                                     </Link></li>
 
@@ -55,22 +65,17 @@ const Home = () => {
                                     </Link></li>
 
                                     <li><Link to="/">
-                                        <p className="paragraph">Followers tags </p>
+                                        <p className="paragraph">Following </p>
                                         <div className="count"><p className="paragraph">{0}</p></div>
                                     </Link></li>
 
                                     <li><Link to="/">
-                                        <p className="paragraph">Followers users </p>
+                                        <p className="paragraph">Files</p>
                                         <div className="count"><p className="paragraph">{0}</p></div>
                                     </Link></li>
 
                                     <li><Link to="/">
-                                        <p className="paragraph">Followers organizations </p>
-                                        <div className="count"><p className="paragraph">{0}</p></div>
-                                    </Link></li>
-
-                                    <li><Link to="/">
-                                        <p className="paragraph">Followers podcasts </p>
+                                        <p className="paragraph">Companies</p>
                                         <div className="count"><p className="paragraph">{0}</p></div>
                                     </Link></li>
 
